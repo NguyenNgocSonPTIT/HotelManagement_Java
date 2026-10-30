@@ -29,8 +29,7 @@ Dự án được xây dựng theo kiến trúc **2 Không gian làm việc (2-W
 HotelManagement_Java/
 │
 ├── Database/
-│   ├── db-hotel.sql                 # Script tạo CSDL HotelManagement & 13 bảng đầy đủ
-│   └── CreateDatabase_MySQL.sql      # Bản sao lưu script CSDL
+│   └── db-hotel.sql                 # Script tạo CSDL HotelManagement & 13 bảng đầy đủ
 │
 ├── lib/
 │   └── mysql-connector-j-8.3.0.jar   # Thư viện JDBC Driver kết nối MySQL

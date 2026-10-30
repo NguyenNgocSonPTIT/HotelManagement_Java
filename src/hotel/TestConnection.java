@@ -37,7 +37,7 @@ public class TestConnection {
                 System.err.println("-> KHAC PHUC: Mo file 'config.properties' va dien mat khau vao dong: db.password=YOUR_PASSWORD");
             } else if (e.getMessage().contains("Unknown database")) {
                 System.err.println("-> NGUYEN NHAN: CSDL 'HotelManagement' chua duoc tao trong MySQL.");
-                System.err.println("-> KHAC PHUC: Mo MySQL Workbench, mo file 'Database\\CreateDatabase_MySQL.sql' va bam bieu tuong tia set (Execute).");
+                System.err.println("-> KHAC PHUC: Mo MySQL Workbench, mo file 'Database\\db-hotel.sql' va bam bieu tuong tia set (Execute).");
             }
             System.err.println("==============================================================");
         }
