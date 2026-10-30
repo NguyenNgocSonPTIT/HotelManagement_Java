@@ -1,0 +1,23 @@
+# Compiled class files
+bin/
+*.class
+
+# Package Files
+*.war
+*.ear
+
+# Allow library jars
+!lib/*.jar
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.iml
